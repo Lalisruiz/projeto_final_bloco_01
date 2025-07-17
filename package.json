@@ -13,6 +13,10 @@
     "@types/chalk": "^0.4.31",
     "@types/inquirer": "^9.0.8",
     "chalk": "^5.4.1",
-    "inquirer": "^12.7.0"
+    "inquirer": "^12.7.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
   }
 }
