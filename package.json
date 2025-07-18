@@ -1,22 +1,28 @@
 {
   "name": "projeto_final_bloco_01",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/Menu.ts",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/Menu.ts",
+    "test": "ts-node src/controller/test/ProdutoController.test.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/chalk": "^0.4.31",
-    "@types/inquirer": "^9.0.8",
     "chalk": "^5.4.1",
     "inquirer": "^12.7.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@types/readline-sync": "^1.4.8"
+    "@types/chalk": "^0.4.31",
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^24.0.14",
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
   }
 }
