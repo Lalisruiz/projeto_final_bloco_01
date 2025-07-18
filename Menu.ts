@@ -35,32 +35,48 @@ export function main() {
         switch (opcao) {
             case 1:
                 console.log(colors.fg.white, "\n\nCadastrar Produto\n\n", colors.reset);
-                // Implementação temporária
-                console.log("Função de cadastro será implementada na próxima etapa");
+
+                const nome = readlinesync.question("Nome: ");
+                const preco = readlinesync.questionFloat("Preço: ");
+                const descricao = readlinesync.question("Descrição: ");
+                const quantidade = readlinesync.questionInt("Quantidade em Estoque: ");
+
+                const novoProduto = new ModaFitness(0, nome, preco, descricao, quantidade, "M"); // ajuste o último campo se necessário
+                controller.cadastrar(novoProduto);
+
                 keyPress();
                 break;
-                
+
             case 2:
                 console.log(colors.fg.white, "\n\nListar Produtos\n\n", colors.reset);
-                console.log("Função de listagem será implementada na próxima etapa");
+                controller.listarTodos();
                 keyPress();
                 break;
-                
+
             case 3:
-                console.log(colors.fg.white, "\n\nConsultar Produto\n\n", colors.reset);
-                console.log("Função de consulta será implementada na próxima etapa");
+                console.log(colors.fg.white, "\n\nConsultar Produto por ID\n\n", colors.reset);
+                const idConsulta = readlinesync.questionInt("ID do Produto: ");
+                controller.consultarPorId(idConsulta);
                 keyPress();
                 break;
-                
+
             case 4:
                 console.log(colors.fg.white, "\n\nAtualizar Produto\n\n", colors.reset);
-                console.log("Função de atualização será implementada na próxima etapa");
+                const idAtualiza = readlinesync.questionInt("ID do Produto a atualizar: ");
+                const nomeAtualiza = readlinesync.question("Novo nome: ");
+                const precoAtualiza = readlinesync.questionFloat("Novo preço: ");
+                const descAtualiza = readlinesync.question("Nova descrição: ");
+                const quantAtualiza = readlinesync.questionInt("Nova quantidade: ");
+
+                const produtoAtualizado = new ModaFitness(idAtualiza, nomeAtualiza, precoAtualiza, descAtualiza, quantAtualiza, "M");
+                controller.atualizar(produtoAtualizado);
                 keyPress();
                 break;
-                
+
             case 5:
                 console.log(colors.fg.white, "\n\nDeletar Produto\n\n", colors.reset);
-                console.log("Função de exclusão será implementada na próxima etapa");
+                const idDeleta = readlinesync.questionInt("ID do Produto a deletar: ");
+                controller.deletar(idDeleta);
                 keyPress();
                 break;
 
@@ -73,7 +89,7 @@ export function main() {
 
 function sobre(): void {
     console.log('\n*****************************************************');
-    console.log('Projeto desenvolvido por: [Larissa Ruiz]');
+    console.log('Projeto desenvolvido por: Larissa Ruiz');
     console.log('Generation Brasil - Turma JavaScript08');
     console.log('https://github.com/Lalisruiz');
     console.log('*****************************************************');
