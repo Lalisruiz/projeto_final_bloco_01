@@ -41,7 +41,7 @@ export function main() {
                 const descricao = readlinesync.question("Descrição: ");
                 const quantidade = readlinesync.questionInt("Quantidade em Estoque: ");
 
-                const novoProduto = new ModaFitness(0, nome, preco, descricao, quantidade, "M"); // ajuste o último campo se necessário
+                const novoProduto = new ModaFitness(0, nome, preco, descricao, quantidade, "M"); 
                 controller.cadastrar(novoProduto);
 
                 keyPress();
