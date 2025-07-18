@@ -1,5 +1,5 @@
-import { ProdutoController } from "../controller/ProdutoController";
-import { ModaFitness } from "../model/ModaFitness";
+import { ProdutoController } from '../ProdutoController';
+import { ModaFitness } from '../../model/ModaFitness';
 
 // 1. Configuração inicial
 const controller = new ProdutoController();
