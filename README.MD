@@ -1,7 +1,7 @@
-# 🏋️‍♀️ E-commerce de Moda Fitness 
+# 🏋️‍♀️ E-commerce de Moda Fitness
 
 **Desenvolvedora:** Larissa Ruiz  
-**Tecnologias:** TypeScript | Node.js | POO  
+**Tecnologias:** TypeScript | Node.js | POO
 
 <div align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
@@ -14,6 +14,7 @@
 ## 📌 Visão Geral
 
 Sistema completo de gerenciamento de produtos para lojas de moda fitness desenvolvido com:
+
 - TypeScript para tipagem estática
 - Princípios de POO (Encapsulamento, Herança, Polimorfismo)
 - Arquitetura modular e clean code
@@ -23,6 +24,7 @@ Sistema completo de gerenciamento de produtos para lojas de moda fitness desenvo
 ## ✨ Funcionalidades Principais
 
 ### 🛍️ Gestão de Produtos
+
 | Feature | Descrição |
 |---------|-----------|
 | 📝 Cadastro | Adiciona novos produtos com todos os atributos |
@@ -37,42 +39,21 @@ Sistema completo de gerenciamento de produtos para lojas de moda fitness desenvo
 [3] Atualizar produto
 [4] Remover produto
 [5] Sair
-🛠️ Stack Tecnológica
-Core
-TypeScript 4.9+
 
-Node.js 18+
-
-Ferramentas
-Ferramenta	Uso
-VS Code	IDE principal
-Git	Controle de versão
-GitHub	Hospedagem de código
-Padrões
-SOLID Principles
-
-Clean Architecture
-
-MVC Pattern
-
-🚀 Começando
-Pré-requisitos
-Node.js 18+
-
-npm 9+
-
-Instalação
-bash
+### Instalação
 # Clone o repositório
 git clone https://github.com/LarissaRuiz/ecommerce-moda-fitness.git
+
+# Acesse a pasta do projeto
+cd ecommerce-moda-fitness
 
 # Instale as dependências
 npm install
 
 # Execute o projeto
 npm start
-📂 Estrutura de Arquivos
-text
+
+### 📂 Estrutura de Arquivos
 ecommerce-moda-fitness/
 ├── src/
 │   ├── models/       # Entidades do sistema
@@ -82,8 +63,11 @@ ecommerce-moda-fitness/
 ├── .gitignore
 ├── package.json
 └── README.md
-🗺️ Roadmap
-Próximas Features
+
+### 🗺️ Roadmap
+
+Próximas features:
+
 Sistema de autenticação
 
 Carrinho de compras
@@ -92,7 +76,3 @@ Integração com gateways de pagamento
 
 Dashboard administrativo
 
-<div align="center"> Desenvolvido com ❤️ por <b>Larissa Ruiz</b> Generation Brasil © 2025
-https://img.shields.io/badge/-CONECTE_SE-0077B5?style=for-the-badge&logo=linkedin
-
-</div> ```
