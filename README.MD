@@ -1,16 +1,98 @@
-# Projeto E-commerce Moda Fitness
+# 🏋️‍♀️ E-commerce de Moda Fitness 
 
-Este é um projeto simples de um sistema de e-commerce focado em Moda Fitness, onde é possível cadastrar produtos, consultar por ID, deletar, atualizar e sair do sistema.
+**Desenvolvedora:** Larissa Ruiz  
+**Tecnologias:** TypeScript | Node.js | POO  
 
-## Funcionalidades
+<div align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</div>
 
-- **Cadastrar Produto:** Permite adicionar novos produtos ao sistema.
-- **Consultar Produto por ID:** Busca um produto específico usando seu ID.
-- **Atualizar Produto:** Atualiza informações de um produto existente.
-- **Deletar Produto:** Remove um produto do sistema.
-- **Sair:** Encerra a aplicação.
+---
 
-## Tecnologias Utilizadas
+## 📌 Visão Geral
 
-- Linguagem: TypeScript
-- Ferramentas: Node.js
+Sistema completo de gerenciamento de produtos para lojas de moda fitness desenvolvido com:
+- TypeScript para tipagem estática
+- Princípios de POO (Encapsulamento, Herança, Polimorfismo)
+- Arquitetura modular e clean code
+
+---
+
+## ✨ Funcionalidades Principais
+
+### 🛍️ Gestão de Produtos
+| Feature | Descrição |
+|---------|-----------|
+| 📝 Cadastro | Adiciona novos produtos com todos os atributos |
+| 🔍 Consulta | Busca por ID ou filtros avançados |
+| ✏️ Atualização | Modifica informações existentes |
+| 🗑️ Remoção | Remove produtos do catálogo |
+
+### 💻 Terminal Interativo
+```bash
+[1] Cadastrar produto
+[2] Consultar produto
+[3] Atualizar produto
+[4] Remover produto
+[5] Sair
+🛠️ Stack Tecnológica
+Core
+TypeScript 4.9+
+
+Node.js 18+
+
+Ferramentas
+Ferramenta	Uso
+VS Code	IDE principal
+Git	Controle de versão
+GitHub	Hospedagem de código
+Padrões
+SOLID Principles
+
+Clean Architecture
+
+MVC Pattern
+
+🚀 Começando
+Pré-requisitos
+Node.js 18+
+
+npm 9+
+
+Instalação
+bash
+# Clone o repositório
+git clone https://github.com/LarissaRuiz/ecommerce-moda-fitness.git
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm start
+📂 Estrutura de Arquivos
+text
+ecommerce-moda-fitness/
+├── src/
+│   ├── models/       # Entidades do sistema
+│   ├── services/     # Regras de negócio
+│   ├── utils/        # Helpers e validadores
+│   └── index.ts      # Entry point
+├── .gitignore
+├── package.json
+└── README.md
+🗺️ Roadmap
+Próximas Features
+Sistema de autenticação
+
+Carrinho de compras
+
+Integração com gateways de pagamento
+
+Dashboard administrativo
+
+<div align="center"> Desenvolvido com ❤️ por <b>Larissa Ruiz</b> Generation Brasil © 2025
+https://img.shields.io/badge/-CONECTE_SE-0077B5?style=for-the-badge&logo=linkedin
+
+</div> ```
