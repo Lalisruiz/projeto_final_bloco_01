@@ -39,8 +39,11 @@ Sistema completo de gerenciamento de produtos para lojas de moda fitness desenvo
 [3] Atualizar produto
 [4] Remover produto
 [5] Sair
+```
+---
 
 ### Instalação
+```bash
 # Clone o repositório
 git clone https://github.com/LarissaRuiz/ecommerce-moda-fitness.git
 
@@ -52,6 +55,7 @@ npm install
 
 # Execute o projeto
 npm start
+```
 
 ### 📂 Estrutura de Arquivos
 ecommerce-moda-fitness/
