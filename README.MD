@@ -43,40 +43,25 @@ Sistema completo de gerenciamento de produtos para lojas de moda fitness desenvo
 ---
 
 ### Instalação
-```bash
 # Clone o repositório
+```bash
 git clone https://github.com/LarissaRuiz/ecommerce-moda-fitness.git
-
+```
 # Acesse a pasta do projeto
+```bash
 cd ecommerce-moda-fitness
-
+```
 # Instale as dependências
+```bash
 npm install
-
+```
 # Execute o projeto
+```bash
 npm start
 ```
 
-### 📂 Estrutura de Arquivos
-ecommerce-moda-fitness/
-├── src/
-│   ├── models/       # Entidades do sistema
-│   ├── services/     # Regras de negócio
-│   ├── utils/        # Helpers e validadores
-│   └── index.ts      # Entry point
-├── .gitignore
-├── package.json
-└── README.md
+---
 
-### 🗺️ Roadmap
-
-Próximas features:
-
-Sistema de autenticação
-
-Carrinho de compras
-
-Integração com gateways de pagamento
 
 Dashboard administrativo
 
